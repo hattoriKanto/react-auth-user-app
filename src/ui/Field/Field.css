@@ -1,0 +1,37 @@
+.field {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.field__input {
+  height: 38px;
+  padding: 10px;
+
+  border: 1px solid transparent;
+  transition: 300ms border-color;
+}
+
+.field__error {
+  border-color: var(--red);
+}
+
+.field__input:hover {
+  border-color: rgb(196, 196, 196);
+}
+
+.field__input:focus {
+  border-color: rgb(133, 133, 133);
+}
+
+.field__input::placeholder {
+  color: rgb(196, 196, 196);
+}
+
+.field__title {
+  margin-bottom: 6px;
+
+  font-size: 14px;
+  font-weight: 500;
+}

@@ -1,0 +1,15 @@
+.form__footer-text {
+  display: flex;
+  align-items: center;
+
+  font-size: 14px;
+}
+
+.form__footer-link {
+  padding: 8px;
+
+  display: inline-block;
+
+  font-weight: 500;
+  color: #00008b;
+}
