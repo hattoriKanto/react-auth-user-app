@@ -1,0 +1,8 @@
+.divider {
+  width: 40%;
+  min-height: 2px;
+
+  display: block;
+
+  background-color: rgb(202, 202, 202);
+}

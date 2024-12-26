@@ -1,0 +1,21 @@
+.button {
+  padding: 16px 32px;
+
+  line-height: 1;
+  font-weight: 500;
+
+  background-color: #ffc0cb;
+  border: 1px solid transparent;
+  transition:
+    300ms background-color,
+    300ms border-color;
+}
+
+.button:hover {
+  background-color: #ffbde6;
+}
+
+.button:focus {
+  background-color: #ffbde6;
+  border-color: #000000;
+}
