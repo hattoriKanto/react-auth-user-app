@@ -1,7 +1,8 @@
+import { Outlet } from "react-router";
 import "./App.css";
 
 const App = () => {
-  return <h1>Hello</h1>;
+  return <Outlet />;
 };
 
 export default App;
