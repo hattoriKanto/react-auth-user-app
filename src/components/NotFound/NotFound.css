@@ -1,0 +1,84 @@
+.not-found {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+
+  border: 2px solid #fff;
+}
+
+.not-found__wrapper {
+  padding: 36px;
+  height: 100%;
+
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+
+  z-index: 2;
+  overflow-y: auto;
+}
+
+.not-found__text {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.not-found__description {
+  margin-top: 42px;
+
+  font-size: 22px;
+}
+
+.not-found__image {
+  height: 100%;
+
+  flex: 0 1 50%;
+
+  background-image: url("../../assets/404-image.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.not-found__background {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-color: #f0f8ff;
+  filter: opacity(0.8);
+  z-index: 1;
+}
+
+.not-found__link {
+  padding: 16px 32px;
+  margin-top: 22px;
+
+  display: inline-block;
+
+  line-height: 1;
+  font-weight: 500;
+  color: #000000;
+
+  background-color: #ffc0cb;
+  border: 1px solid transparent;
+  transition:
+    300ms background-color,
+    300ms border-color;
+}
+
+.not-found__link:hover {
+  background-color: #ffbde6;
+}
+
+.not-found__link:focus {
+  background-color: #ffbde6;
+  border-color: #000000;
+}

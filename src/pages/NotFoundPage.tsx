@@ -1,3 +1,4 @@
+import { NotFound } from "../components";
 import { BackgroundImage, Container } from "../ui";
 
 export const NotFoundPage = () => {
@@ -5,7 +6,7 @@ export const NotFoundPage = () => {
     <main>
       <BackgroundImage />
       <Container>
-        <h1>NotFound</h1>
+        <NotFound />
       </Container>
     </main>
   );

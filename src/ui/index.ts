@@ -1,4 +1,5 @@
 export * from "./Container/Container";
+export * from "./Section/Section";
 export * from "./Title/Title";
 export * from "./Button/Button";
 export * from "./Field/Field";

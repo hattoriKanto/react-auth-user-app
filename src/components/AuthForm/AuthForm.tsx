@@ -9,7 +9,14 @@ import {
 import { FormFieldsData } from "../../constants";
 import { LogInFormSchema, SignUpFormSchema } from "../../validators";
 import { getTitleFromType } from "../../helpers";
-import { Button, Divider, Field, FormFooterText, Title } from "../../ui";
+import {
+  Button,
+  Divider,
+  Field,
+  FormFooterText,
+  Section,
+  Title,
+} from "../../ui";
 import "./AuthForm.css";
 
 type AuthFormProps = {
@@ -41,7 +48,7 @@ export const AuthForm: React.FC<AuthFormProps> = ({ type }) => {
   };
 
   return (
-    <section className="auth-form">
+    <Section>
       <form className="form" onSubmit={handleSubmit(onSubmit)}>
         <div className="form__background" />
         <div className="form__wrapper">
@@ -73,6 +80,6 @@ export const AuthForm: React.FC<AuthFormProps> = ({ type }) => {
           </div>
         </div>
       </form>
-    </section>
+    </Section>
   );
 };
